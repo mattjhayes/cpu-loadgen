@@ -37,7 +37,7 @@ def main(argv):
             print_help()
             sys.exit()
         elif opt in ("-v", "--version"):
-            print 'hort.py version', version
+            print 'cpu-loadgen.py version', version
             sys.exit()
 
     #*** Convert times to floats:
